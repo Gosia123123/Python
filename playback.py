@@ -1,8 +1,5 @@
+text = input("Input: ")
 
-text = input("Input:a ")
+output = text.replace("a", "...").replace("A", "...")
 
-# cange to ..
-output = text.replace("a", "...")
-
-# Wyświetl wynik
-print(output)
+print("Output:", output)
